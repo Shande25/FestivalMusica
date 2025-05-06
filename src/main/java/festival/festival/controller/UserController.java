@@ -8,7 +8,7 @@ public class UserController {
 
     @GetMapping("/")
     public String userStart() {
-        return "festival";
+        return "index";
     }
     @GetMapping("/contact")
     public String contactUser() {
